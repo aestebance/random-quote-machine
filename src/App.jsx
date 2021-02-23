@@ -65,7 +65,7 @@ function App() {
         <div style={{backgroundColor: color}} className="wrapper d-flex vh-100">
             <div id="quote-box" className="box cl-xs-12 col-6 box p-4 rounded">
                 <div className="quote-text">
-                    <i style={{color: color}} className="fa fa-2x fa-quote-left"/>
+                    <i style={{color: color}} className="fa fa-2x fa-quote-left quote"/>
                     <span className="b-text" style={{color: color}} id="text"> {quote.quote}</span>
                 </div>
                 <div className="quote-author">
