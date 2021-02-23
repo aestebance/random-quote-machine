@@ -1,0 +1,45 @@
+.wrapper {
+  height: 100vh;
+  transition: background-color 0.8s linear 0.2s;
+}
+
+.box {
+  margin: auto;
+  background-color: #FFF;
+  width: 600px!important;
+}
+
+.quote-text {
+  text-align: center;
+  height: auto;
+  position: relative;
+  margin: 0;
+  display: flex;
+}
+span {
+  transition: all 0.8s linear 0.2s!important;
+}
+
+.b-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.quote-author {
+  text-align: right;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.b-button {
+  &__container {
+    margin-top: 30px;
+  }
+
+  &__text {
+    color: #FFF!important;
+    font-size: 0.85em!important;
+    transition: all 0.8s linear 0.2s!important;
+  }
+}
